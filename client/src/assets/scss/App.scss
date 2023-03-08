@@ -1,0 +1,10 @@
+@import "mixins";
+
+@include font-face(SFN, "../fonts/SF-Pro-Display-Regular", normal, 400);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: SFN, Helvetica, SansSerif, Arial;
+}
