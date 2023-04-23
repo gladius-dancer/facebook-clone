@@ -1,4 +1,4 @@
-// production config
+// production configs
 const { merge } = require("webpack-merge");
 const { resolve } = require("path");
 

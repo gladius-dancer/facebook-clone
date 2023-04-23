@@ -8,3 +8,31 @@
   box-sizing: border-box;
   font-family: SFN, Helvetica, SansSerif, Arial;
 }
+
+a{
+  text-decoration: none;
+}
+
+.form-modal{
+  position: fixed;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  width: 400px;
+  min-height: 500px;
+  background: #fff;
+  border-radius: 10px;
+  z-index: 1000;
+  opacity: 1;
+  box-shadow: 0 0 15px 2px rgba(164, 162, 162, 0.5);
+}
+
+.modal-overlay{
+  background: rgba(255, 255, 255, 0.74);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
